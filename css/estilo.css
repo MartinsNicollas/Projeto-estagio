@@ -1,0 +1,347 @@
+/*body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(1, 1, 19);
+}
+a:link a:active a:visited{
+    color: tomato;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*Grid de 960px*/
+/*.linha{
+    width: 960px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 0;
+}
+.coluna{
+    padding: 0 10px;
+    float: left;
+}
+.col1{
+    width: 60px;
+}
+.col2{
+    width: 140px;
+}
+.col3{
+    width: 220px;
+}
+.col4{
+    width: 300px;
+}
+.col5{
+    width: 380px;
+}
+.col6{
+    width: 460px;
+}
+.col7{
+    width: 540px;
+}
+.col8{
+    width: 620px;
+}
+.col9{
+    width: 700px;
+}
+.col10{
+    width: 780px;
+}
+.col11{
+    width: 860px;
+}
+.col12{
+    width: 940px;
+}*/
+/*estilos reutilizaveis*/
+/*.sem-padding{
+    padding: 0!important;
+}
+.sem-margin{
+    margin: 0!important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+    margin: 15px 0px 10px 0px;
+}
+ul li, ol,li{
+    margin-bottom: 5px;
+}
+ul.inline li, ol.inline li{
+    display: inline;
+    margin: 15px;
+}
+ul.inline li:last-child, ol.inline li:last-child{
+    margin: 15px;
+}
+ul.sem-marcador,ol.sem-marcador{
+    list-style: none;
+}
+a.botao, input.botao{
+    background: #1f3c58;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #ebebeb;
+    cursor: pointer;
+    margin: 5px 0;
+    display: inline-block;
+    border: none;
+}
+a.botao:hover, input.botao:hover{
+    background: #315e8a;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}*/
+/*layout do site */
+/*.header{
+    background: #dee3e6;
+}
+h1.logo{
+    font-weight: 300;
+    color: #315e8a;
+    letter-spacing: -2px;
+}
+.conteudo-extra{
+    background: #f1f2ea;
+}
+.footer{
+    background: #1f3c58;
+    color: #ebebeb;
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: 100;
+}
+.menu{*/
+    /*text-transform: uppercase;
+    text-align: right;*/
+   /* margin-top: 20px;/*
+}*//*
+.menu li a{
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.menuli,a:hover{
+    text-decoration: none;
+    background: #1f3c58;
+    color: #ebebeb;
+}
+ul.noticias li{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ul.noticias li img{
+    width: 70px;
+    margin: auto;
+    margin-right: 10px;
+    float: left;
+}
+ul.noticias li h4{
+    margin: -2px 0 5px 0;
+    font-weight: 500;
+}
+ul.noticias li p{
+    margin: 5px;
+    font-weight: 500;
+}
+ul.noticias li p a{
+    font-weight: 300;
+}
+.contato label{
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+}
+.contato input, .contato textarea{
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px 2%;
+    width: 96%;
+}
+.contato textarea{
+    height: 150px;
+}
+.contato input.botao{
+    width: auto;
+}*/
+
+body ul li{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    font-size: 1rem;
+    font-family: Arial,;
+}
+a{
+    color: ivory; 
+    text-decoration: none; 
+}
+
+header{
+    background: #1d1e20;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+header .logo{
+    padding: 10px;
+    font-size: 3em;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+.corpo{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0px;
+}
+.corpo .abc{
+    align-items: center;
+    width: 80%;
+}
+.cliente{
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+.cliente > div{
+    align-items: flex-end;
+    flex: 1 1 200px;
+    margin: 10px;
+}
+.cliente a{
+    color: blue;
+}
+.corpo .cliente div ul li a{
+    list-style: outside;
+    margin: 10px;
+    color: black;
+}
+.abc{
+    align-items: center;
+}
+.abc h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}    
+.abc img{
+    align-items: center;
+    width: 90%;
+}
+.abc a{
+    color: teal;
+}
+.corpo .rodape{
+    display: grid;
+}
+.rodape{
+    align-self: center;
+    padding: 10px;
+}
+.rodape h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.rodape h2 p{
+    text-align: center;
+}
+.noticia{
+
+    align-items: right;
+}
+.noticia .item{
+    align-items: flex-end;
+}
+.noticia ul{
+    align-items: initial;
+    padding: 10px;
+}
+.noticia ul li p a{
+    color: blue;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1d1e20;
+}
+.footer div samp{
+    color: darkgoldenrod;
+}
+
+/*pagina Clientes*/
+
+.grade ul{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+.grade ul li{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+.abc .conteudo-extra{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+    
+
+/*Pagina serviços*/
+.grade .servico ul{ 
+    display: flex;
+    justify-content: space-between;
+    margin: 10px -30px;
+    width: 100%; 
+    padding: 0px 0px;  
+}
+/*Pagina Sobre*/
+.cliente ul{
+    max-width: 200px;
+    padding-left: 1px;
+    align-self: start;
+}
+/*pagina contato*/
+.rodape .rodcont form ul h2{
+    text-align: left;
+
+    height: 20px;
+
+    margin-left: 16px;
+    margin-right: 16px;
+    border-left-width: 16px;
+    padding-right: 40px;
+    /*height: 212px;*/
+    width: 150px;
+    padding-left: 150px;
+
+}
